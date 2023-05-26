@@ -1,0 +1,11 @@
+Flask
+Gunicorn
+Pillow
+numpy
+werkzeug
+flask_wtf
+matplotlib
+pytest
+flask_testing
+flask_wtf
+pytest
