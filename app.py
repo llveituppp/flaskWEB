@@ -10,8 +10,8 @@ import tkinter as tk
 app = Flask(__name__, static_folder='static')
 app.config['UPLOAD_FOLDER'] = 'upload'
 app.config['SECRET_KEY'] = 'your_secret_key'
-app.config['RECAPTCHA_PUBLIC_KEY'] = '6LdugDwmAAAAAC2IMPVgMu-SwxU9uY_EtW-JNy5r'
-app.config['RECAPTCHA_PRIVATE_KEY'] = '6LdugDwmAAAAADXAM0stMt2dfH0RfU7oF5RQH1Tk'
+app.config['RECAPTCHA_PUBLIC_KEY'] = '6LdugDwmAAAAADXAM0stMt2dfH0RfU7oF5RQH1Tk'
+app.config['RECAPTCHA_PRIVATE_KEY'] = '6LdugDwmAAAAAC2IMPVgMu-SwxU9uY_EtW-JNy5r'
 app.config['RECAPTCHA_OPTIONS'] = {'theme': 'white'}
 
 
